@@ -41,7 +41,7 @@ int main()
 		printf("Incorrect number of days!\n");
 		exit(1);
 	}
-	else if (getMonth(date)>12)
+	else if (month>12)
 	{
 		printf("Incorrect number of months!\n");
 		exit(1);
